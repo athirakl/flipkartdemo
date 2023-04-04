@@ -1,0 +1,205 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+    <!-- frst blue navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:blue;">
+        
+        <ul>
+            <li type="none" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><a class="navbar-brand" href="#" >Flipkart</a></li>
+            <li type="none"><a class="navbar-brand" href="#" >Explore plus</a></li>
+        </ul>
+        <div class="container">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary "><input class="form-control  mr-sm-2 " type="search" placeholder="search for products, brands and more" aria-label="search"></button>
+              <button type="button" class="btn btn-primary">?</button>
+            </div>
+        </div>
+        <!-- <input class="form-control mr-sm-2" type="search" placeholder="search for products, brands and more" aria-label="search"> -->
+        <button class="btn btn-light  btn-outline-dark my-2 my-sm-0" type="submit">Login</button>
+
+    
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Become a seller</a>
+            </li>
+            <li class="nav-item active dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <a class="dropdown-item" href="#" text="white">Notification preference</a>
+                        <a class="dropdown-item" href="#" >24*7 customer care</a>
+                        <a class="dropdown-item" href="#" >Advertise</a>
+                        <a class="dropdown-item" href="#" >Download App</a>
+                    </div>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" href="#"><img src="cart.png" width="30px">Cart</a>
+            </li>
+        </ul>
+    </nav>
+<!-- secnd navbar -->
+
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+    
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <li type="none" ><img src="shopping.png" width="50px"></li>
+            <li type="none"><a class="nav-link" href="#">Grocery</a></li>
+        </li>
+        <li class="nav-item active dropdown" >
+            <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                    <a class="dropdown-item" href="#" text="white">Notification preference</a>
+                    <a class="dropdown-item" href="#" >24*7 customer care</a>
+                    <a class="dropdown-item" href="#" >Advertise</a>
+                    <a class="dropdown-item" href="#" >Download App</a>
+                </div>
+        </li>
+        <li class="nav-item active">
+           <a class="nav-link" href="#"><img src="cart.png" width="30px">Cart</a>
+        </li>
+    </ul>
+</nav> -->
+
+
+
+
+
+<!-- carousel -->
+        <form id="form1" runat="server">
+            <div class="container-fluid mt-3">
+                <!-- <h2>Carousel Example</h2> -->
+            </div>
+            <div id="demo" class="carousel slide carousel-dark" data-bs-carousel="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 200px;">
+                       <img src="1.png" alt="haiii" class="d-block w-100" />
+                        <div class="carousel-caption">
+                            <!-- <h3>first flower</h3> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 200px;">
+                        <img src="2.png" alt="haiii" class="d-block w-100" />
+                        <div class="carousel-caption">
+                            <!-- <h3>second flower</h3> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 200px;">
+                        <img src="3.png" alt="haiii" class="d-block w-100" />
+                        <div class="carousel-caption">
+                            <!-- <h3>third flower</h3> -->
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </form>
+        <!-- card -->
+
+        <div class="container mt-3 row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="card my-auto  col card h-300" style="width: 200px; height: 350;">
+                
+                    <div class="card-body">
+                        <h2 class="card-title text-body">Best of Electronics</h2>
+                        <a href="#" class="btn btn-primary">VIEW ALL</a>
+                    <img class="card-img-top" src="f8.png" style="width:100%; height: 160;">
+
+                    </div>
+        
+            </div>
+            <div class="card my-auto col " style="width: 200px; height: 350;">
+
+                    <img class="card-img-top" src="f1.png" style="width:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title text-body">Monitors</h4>
+                        <a href="#" class="text-success">FROM $6599</a>
+                        <h6 class="text-secondary">acer</h6>
+                    </div>
+            
+            </div>
+
+            <div class="card my-auto col  " style="width: 200px; height: 350;">
+        
+                    <img class="card-img-top" src="f2.png" style="width:100%;">
+                    <div class="card-body">
+                        <h4 class="card-title text-body">Printers</h4>
+                        <a href="#" class="text-success">FROM $3999</a>
+                        <h6 class="text-secondary">HP</h6>
+                    </div>
+            
+            </div>
+            <div class="card my-auto col  card h-200" style="width: 200px; height: 350;">
+        
+                <img class="card-img-top" src="f3.png" style="width:100%;">
+                <div class="card-body">
+                    <h4 class="card-title text-body">Printers</h4>
+                    <a href="#" class="text-success">FROM $3999</a>
+                    <h6 class="text-secondary">HP</h6>
+                </div>
+        
+            </div>
+
+            <div class="card my-auto col  " style="width: 200px; height: 350;">
+        
+                <img class="card-img-top" src="f4.png" style="width:100%;">
+                <div class="card-body">
+                    <h5 class="card-title text-body">Top MIrrorless Cameras</h5>
+                    <a href="#" class="text-success">shop Now!</a>
+                    <h6 class="text-secondary">Canon, Nikon, Sony, FujiFilm ...</h6>
+                </div>
+        
+            </div>
+
+
+
+
+            <div class="card my-auto col  " style="width: 200px; height: 350;">
+        
+                <img class="card-img-top" src="f5.png" style="width:100%;">
+                <div class="card-body">
+                    <h4 class="card-title text-body">Printers</h4>
+                    <a href="#" class="text-success">FROM $3999</a>
+                    <h6 class="text-secondary">HP</h6>
+                </div>
+        
+        </div>
+
+            <div class="card my-auto col  " style="width: 200px; height: 350;">
+                <img class="card-img-top" src="f6.png" style="width:100%;">
+                <div class="card-body">
+                    <h4 class="card-title text-body">Top deals of camera acesseries..</h4>
+                    <a href="#" class="text-success">shop Now!</a>
+                    <h6 class="text-secondary">Tripods,Gimbals,Bags...</h6>
+                </div>
+    
+            </div>   
+        </div>
+
+
+
+</body>
+</html>
